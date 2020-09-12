@@ -1,0 +1,16 @@
+{
+    "name": "copy page link as markdown",
+    "author": "loftkun",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "Markdown形式でページリンクをクリップボードに格納します",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "permissions": [
+        "contextMenus"
+    ]
+}
